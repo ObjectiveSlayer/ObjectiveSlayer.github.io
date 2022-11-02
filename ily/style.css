@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none !important;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #242434;
+    transition: background-color 500ms linear;
+}
+.ilysm-chloee{
+    background: -webkit-linear-gradient(90deg, #24ff6d, #2f93f1);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.7em;
+    font-weight: 500;
+}
