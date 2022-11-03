@@ -37,3 +37,16 @@ body{
     filter: blur(55px);
     animation: glowing 7s ease infinite;
 }
+@keyframes glowing{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 130%;
+        filter: blur(105px);
+    }
+    100%{
+        background-position: 0 50%;
+        filter: blur(55px);
+    }
+}
