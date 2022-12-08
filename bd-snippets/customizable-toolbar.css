@@ -257,6 +257,11 @@
 	[aria-label="개인 메시지에 친구 추가하기" i]
 ){display: var(--add-friends-to-dm-icon)}
 
+/* user profile button */
+.title-31SJ6t>.toolbar-3_r2xA>.iconWrapper-2awDjA[aria-label="Show User Profile" i]{
+	display: var(--user-profile-icon);
+}
+
 
 /* help button */
 .title-31SJ6t>.toolbar-3_r2xA>[href="https://support.discord.com"]{display: var(--help-icon)}
