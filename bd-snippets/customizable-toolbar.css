@@ -258,7 +258,8 @@
 ){display: var(--add-friends-to-dm-icon)}
 
 /* user profile button */
-.title-31SJ6t>.toolbar-3_r2xA>.iconWrapper-2awDjA[aria-label="Show User Profile" i]{
+.title-31SJ6t>.toolbar-3_r2xA>.iconWrapper-2awDjA[aria-label$="User Profile" i],
+.chatContent-3KubbW+.profilePanel-2PWEok{
 	display: var(--user-profile-icon);
 }
 
