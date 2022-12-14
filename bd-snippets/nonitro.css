@@ -22,7 +22,8 @@
 /* boost stuff */
 .flowerStarContainer-1QeD-L,
 .sidebar-1tnWFu .container-1NXEtd :where(.hasBanner-2IrYih>.animatedContainer-2laTjx,.content-2a4AW9>:where([style="height: 84px;"]:first-child,.container-2giAcK)),
-[href=\/store]{
+[href=\/store],
+#discord-nitro-tab *{
     display: none;
 }
 #app-mount .header-3OsQeK{
