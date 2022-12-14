@@ -1,0 +1,71 @@
+/* Hide GIFT button */
+.buttons-uaqb-5>.button-f2h6uQ:not(.BD-TeX-plugin-button)>:not(.quickToggleButton-P2xDh8),
+/* hide shiny buttons */
+.shinyButton-2Q9MDB,
+/* hide premium promos */
+.premiumPromo-1eKAIB,
+.premiumIcon-3PLiGh,
+.userPopoutInner-1hXSeY>.wrapper-400BN2,
+.premiumIconWrapper-yyGDql,
+.upsell-103Jee,
+/* hide nitro settings in settings panel */
+.side-2ur1Qk[aria-label$=settings i]>:nth-child(-n+15):not(:nth-child(-n+8)),
+/* hide nitro stuff in settings */
+.featureBorder-2Jl8g4,
+.customizationSection-IGy2fS.showBorder-2hbqaq,
+.upsellOverlayContainer-3NMgTS,
+.bannerNitroUpsell-23OMvY,
+/* removing nitro stuff in server settings */
+#guild_premium-tab>div:not([class])~div,
+#overview-tab .children-1xdcWE>:last-child>.divider--oiTeJ>.children-1xdcWE>:nth-last-child(-n+2),
+.paymentModalContent>*,
+/* boost stuff */
+.flowerStarContainer-1QeD-L,
+.sidebar-1tnWFu .container-1NXEtd :where(.hasBanner-2IrYih>.animatedContainer-2laTjx,.content-2a4AW9>:where([style="height: 84px;"]:first-child,.container-2giAcK)),
+[href=\/store]{
+    display: none;
+}
+#app-mount .header-3OsQeK{
+    box-shadow: var(--elevation-low);
+}
+#profile-customization-tab [class$=customizationSection-IGy2fS]{
+    border: 0;
+}
+.paymentModalContent:before{
+    content: 'this is pretty much a scam, continue if you please.';
+    text-transform: capitalize;
+    color: var(--text-normal);
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px;
+}
+.paymentModalContent{
+    background-color: var(--modal-footer-background);
+}
+/* user profiles */
+.theme-dark {
+    --profile-gradient-primary-color: var(--background-secondary-alt) !important;
+    --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
+    --profile-gradient-overlay-color: transparent !important;
+    --profile-gradient-button-color: var(--button-secondary-background) !important;
+    --profile-avatar-border-color: var(--background-secondary-alt) !important;
+    --profile-message-input-border-color: var(--background-modifier-accent) !important;
+    --profile-body-background-color: var(--background-floating) !important;
+    --profile-body-background-hover: var(--background-modifier-hover) !important;
+    --profile-body-divider-color: var(--background-modifier-accent) !important;
+    --profile-role-pill-background-color: var(--background-secondary-alt) !important;
+    --profile-role-pill-border-color: var(--interactive-normal) !important;
+    --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
+}
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU{
+    padding: 0;
+}
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ .avatarWrapper-3y0KZ1, .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU .avatarWrapper-3y0KZ1{
+    margin: -4px
+}
+/* hiding server boost button */
+#guild-header-popout-premium-subscribe{
+    opacity:0;
+    z-index:-1;
+    margin-top:-42.7px;
+}
