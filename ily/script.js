@@ -1,12 +1,12 @@
-var storednum = localStorage.getItem("ily");
+var storednum = localStorage.getItem("ihy");
 let count = storednum;
 function main(){
     count++;
-    document.getElementById("ilysm").innerHTML = 'i love you ' + count + ' <3';
-    localStorage.setItem("ily", count);
+    document.getElementById("fuck-you").innerHTML = 'i hate you ' + count + ' 🖕';
+    localStorage.setItem("ihy", count);
 }
 function get(){
-    localStorage.getItem("ily");
-    document.getElementById("ilysm").innerHTML = 'i love you ' + count + ' <3';
+    localStorage.getItem("ihy");
+    document.getElementById("fuck-you").innerHTML = 'i hate you ' + count + ' 🖕';
 }
 var updateCount = setInterval(main, 25);
