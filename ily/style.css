@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none !important;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #242434;
+    transition: background-color 500ms linear;
+}
+.fuck-you-chloee{
+    background: -webkit-linear-gradient(90deg, #24ff6d, #2f93f1);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.7em;
+    font-weight: 500;
+    position: relative;
+}
+.fuck-you-chloee::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, #24ff6d, #2f93f1, #ff5e9a);
+    background-size: 200% 200%;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    filter: blur(55px);
+    animation: glowing 7s ease infinite;
+}
+@keyframes glowing{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 130%;
+        filter: blur(105px);
+    }
+    100%{
+        background-position: 0 50%;
+        filter: blur(55px);
+    }
+}
