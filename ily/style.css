@@ -16,7 +16,7 @@ body{
     background: #242434;
     transition: background-color 500ms linear;
 }
-.ilysm-chloee{
+.fuck-you-chloee{
     background: -webkit-linear-gradient(90deg, #24ff6d, #2f93f1);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -24,7 +24,7 @@ body{
     font-weight: 500;
     position: relative;
 }
-.ilysm-chloee::before{
+.fuck-you-chloee::before{
     content: '';
     position: absolute;
     background: linear-gradient(45deg, #24ff6d, #2f93f1, #ff5e9a);
